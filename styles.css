@@ -81,7 +81,7 @@
 
   
 h1{ transform: rotateX(360deg);
-    margin-left:1rem;
+    margin-left:10rem;
     height:7rem;
     font-size:3rem; /* all that really matters when it comes to the header size*/
     font-family:"Courier";
@@ -89,7 +89,7 @@ h1{ transform: rotateX(360deg);
     /*font-family:'edoregular';*/
     overflow: hidden;
     white-space: nowrap;
-    width:29rem;
+    width:50rem;
     animation: type 7s steps(60, end); 
 
  
