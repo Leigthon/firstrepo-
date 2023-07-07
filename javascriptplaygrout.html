@@ -1,8 +1,9 @@
 
 <DOCTYPE! html >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
    
 <div class="interface">
-    <html>
+    <html class=".font">
     <style>
         *{margin:0px;
         }
@@ -21,10 +22,114 @@
             animation: type 8s steps(100, end); 
         
             }
-            
+            .footerContainer{
+    
+    height :13rem;
+    background-color:#111;
+
+ }
+ .social-icon{
+
+    display:flex;
+    justify-content: center;
+
+ }
+
+.social-icon a{
+    background-color: white;
+    margin-top:1em;
+    margin-left: 1em;
+    padding:2.5%;
+    border-radius:40%;
+} 
+.social-icon a i{
+   font-size:2em;
+} 
+
+.links{
+    margin-top:30px;
+    text-align:center;
+    display:inline;
+    margin-top:1em;
+}
+.links ul{
+    margin-top:5px;
+}
+
+.disclaimer{
+    background-color:black;
+    
+    justify-content: center;
+    height:3em;
+    text-align:center;
+
+}
 
 
-       
+.click{
+
+    color:#888;
+    text-decoration:none;
+}
+.click:hover, .click:focus{
+    color:white;
+    font-size:25px;
+    /*transition :transform;*/
+    transform : rotateX(30deg);
+    transition: 2s;
+  
+
+}
+
+
+.icon:hover ,.icon:focus{
+    color:white;
+    /*transition :transform;*/
+    transform : rotateX(30deg);
+    transition: 2s;
+    background:radial-gradient(blue ,grey);
+}
+.insta-icon:hover ,.insta-icon:focus{
+    color:white;
+    /*transition :transform;*/
+    transform : rotateX(30deg);
+    transition: 2s;
+    background:radial-gradient(rgb(255, 192, 195),rgb(128, 0, 122) ,yellow);
+}
+
+.tiktok-icon:hover ,.tiktok-icon:focus{
+    color:white;
+    /*transition :transform;*/
+    transform : rotateX(30deg);
+    transition: 2s;
+    background:radial-gradient(rgba(9, 1, 10, 0.856),rgba(9, 1, 10, 0.856),rgba(233, 13, 148, 0.856));
+}
+
+
+.linkedin-icon:hover ,.linkedin-icon:focus{
+    color:white;
+    /*transition :transform;*/
+    transform : rotateX(30deg);
+    transition: 2s;
+    background:radial-gradient(blue,black);
+}
+.youtube-icon:hover ,.youtube-icon:focus{
+    color:white;
+    /*transition :transform;*/
+    transform : rotateX(30deg);
+    transition: 2s;
+    background:radial-gradient(red,black);
+}
+.github-icon:hover ,.github-icon:focus{
+    color:white;
+    /*transition :transform;*/
+    transform : rotateX(30deg);
+    transition: 2s;
+    background:radial-gradient(black,purple);
+}
+    
+.fonts{
+    color:#888}
 
 @keyframes type{ 
   from { width: 0; } 
@@ -48,5 +153,33 @@
   <p>Hey <script>document.write(user)</script> <l>and Welcome to the Java Script Playground where i test my personal java projects</l1>
   <p> </p>
 </body>
+
 </div>
+<div class="footerContainer">
+ 
+
+
+    <div class="social-icon">
+    <a href="https://www.facebook.com/leigthon.messina.12/" class="icon"><i class="fa-brands fa-facebook" ></i></a>
+    <a href="https://www.instagram.com/_leigthon_/" class="insta-icon"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.tiktok.com/@leigthon_raps" class="tiktok-icon"><i class="fa-brands fa-tiktok"></i></a>
+    <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BfslznX1NQk65RgPcQU3o7A%3D%3D0" class="linkedin-icon"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://youtu.be/aIgke3M0iXU" class="youtube-icon"><i class="fa-brands fa-youtube" ></i></a>
+    <a href="https://github.com/Leigthon" class="github-icon" ><i class="fa-brands fa-github" ></i></a>
+  
+
+  </div>
+  <div class="links">
+  
+   <ul><a href="http://127.0.0.1:3000/c:/Users/Leigthon/Desktop/Web%20Design/index.html" class="click">Home</a></ul>
+   <ul><a class="click">News</a></ul>
+   <ul><a class="click">Contact Info</a></ul>
+   <ul><a href ="Curriculum Vitae.docx" class="click">Curriculum Vitae</a></ul>
+   
+   </div>
+   
+ 
+</div><!--this adds a footer container to the bottom of the screen-->
+<div class="disclaimer">Designed by Leigthon Copyright &copy;2023 </div>
+
 </html>
