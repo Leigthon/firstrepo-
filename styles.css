@@ -126,7 +126,7 @@ a{  height: 100%;
     margin:0px;
     background-size:100% 100%;
     /*width:100%;*/
-    height:1000px;
+    height:1800px;
 
    /*background:;*/
     flex-direction:row;
@@ -347,13 +347,16 @@ a{  height: 100%;
       
 h1{ transform: rotateX(360deg);
     height:3rem;
-    font-size:2rem;/* all that really matters when it comes to the header size*/
+    width:88%;
+    margin-left:2rem;
+    font-size:1.8rem;/* all that really matters when it comes to the header size*/
     font-style:unset;
     font-style:inherit;
     font-family: serif;
     color:white;
     font-family:'Courier New', Courier, monospace;
     overflow:hidden;
+    animation:none;
 
  
 }
